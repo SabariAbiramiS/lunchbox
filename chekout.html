@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Checkout | LunchBox</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">🍱 LunchBox</div>
+</nav>
+
+<section class="checkout">
+
+<h1>Delivery Details</h1>
+
+<input type="text" placeholder="Full Name">
+<input type="text" placeholder="Address">
+<input type="text" placeholder="Phone Number">
+
+<h2 id="final-total">Total: ₹0</h2>
+
+<button onclick="placeOrder()">Place Order</button>
+
+</section>
+
+<script>
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+let total = 0;
+cart.forEach(item => total += item.price);
+
+document.getElementById("final-total").innerText = "Total: ₹" + total;
+
+function placeOrder(){
+  if(cart.length === 0){
+    alert("Cart is empty!");
+    return;
+  }
+
+  localStorage.removeItem("cart");
+  window.location.href = "success.html";
+}
+</script>
+
+</body>
+</html>

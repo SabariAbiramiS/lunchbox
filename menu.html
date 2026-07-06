@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LunchBox | Menu</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav>
+    <button onclick="toggleDark()">🌙</button>
+
+<div class="logo">
+🍱 LunchBox
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+</ul>
+
+</nav>
+
+<section class="menu">
+    
+
+<h2>Explore Our Menu</h2>
+
+<input
+type="text"
+id="search"
+placeholder="Search your favourite food...">
+
+<div class="food-container" id="food-container">
+    
+
+</div>
+
+</section>
+
+<script src="menu.js"></script>
+
+</body>
+</html>
