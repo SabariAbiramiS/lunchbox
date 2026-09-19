@@ -5,7 +5,7 @@ id:1,
 name:"Burger",
 price:199,
 category:"Burger",
-image:"client/burger.png"
+image:"burger.jfif"
 },
 
 {
@@ -13,7 +13,7 @@ id:2,
 name:"Pizza",
 price:299,
 category:"Pizza",
-image:"client/pizza.png"
+image:"pizza.jfif"
 },
 
 {
@@ -21,7 +21,7 @@ id:3,
 name:"Chicken Biryani",
 price:249,
 category:"Biryani",
-image:"client/biriyani.png"
+image:"biriyani.jfif"
 },
 
 {
@@ -29,7 +29,7 @@ id:4,
 name:"Dosa",
 price:99,
 category:"South Indian",
-image:"client/dosa.png"
+image:"dosa.jfif"
 },
 
 {
@@ -37,7 +37,7 @@ id:5,
 name:"Fried Rice",
 price:179,
 category:"Chinese",
-image:"client/fried.png"
+image:"fried.jfif"
 },
 
 {
@@ -45,7 +45,7 @@ id:6,
 name:"Noodles",
 price:159,
 category:"Chinese",
-image:"client/noodle.png"
+image:"noodle.jfif"
 }
 
 ];
